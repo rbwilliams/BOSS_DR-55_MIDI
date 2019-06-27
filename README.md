@@ -8,4 +8,7 @@ Becasue this project will run on 6 AA batteries, power saving is an issue. One s
 
 The Arduino Pro Mini is running at 8mHz, with a 3.3V regulator on board. This saves a bit more power compared to the 16mHz/5V version.
 
-It is important to note that this current version of firmware only triggers the DR-55 sounds via MIDI, and DOES NOT yet implement patter record/playback. This is planned for future releases,. 
+It is important to note that this current version of firmware only triggers the DR-55 sounds via MIDI, and DOES NOT yet implement patter record/playback. This is planned for future releases.
+
+In addtion to the Arduino Pro Mini, you will needa 3.3V-powereed MDI IN circuit, and a piezo buzzer, like this:
+![picture](https://www.robomart.com/image/cache/catalog/RM3079/rm3079-500x500.jpg)
